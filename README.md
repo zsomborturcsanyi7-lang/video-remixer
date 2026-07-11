@@ -1,92 +1,92 @@
-# YouTube Video Készítő — Automatikus Videó Remixelő
+# YouTube Video Creator — Automatic Video Remixer
 
-**Verzió:** 1.0  
-**Szerző:** Zsombi & Hermes Agent (Nous Research)  
-**Státusz:** Működő prototípus
-
----
-
-## Leírás
-
-A **YouTube Video Készítő** egy automatikus videó remixelő eszköz, amely YouTube videókat tölt le, feldolgoz és újrakever. A program az **yt-dlp**-t használja letöltésre és az **FFmpeg**-et vágásra, keverésre és effektek alkalmazására. A projekt része egy egyszerű letöltő eszköz is (`simple_video_downloader.py`).
+**Version:** 1.0  
+**Author:** Zsombi & Hermes Agent (Nous Research)  
+**Status:** Working prototype
 
 ---
 
-## Fájlszerkezet
+## Description
+
+The **YouTube Video Creator** is an automatic video remixing tool that downloads, processes, and remixes YouTube videos. The program uses **yt-dlp** for downloading and **FFmpeg** for cutting, mixing, and applying effects. The project also includes a simple downloader utility (`simple_video_downloader.py`).
+
+---
+
+## File Structure
 
 ```
 youtube video készitö/
 │
-├── video_remixer.py            # Fő remixelő program (235 sor)
-├── simple_video_downloader.py  # Egyszerű YouTube letöltő
-├── run_remixer.bat             # Windows indító script
-├── video_remixer_config.json   # Konfigurációs fájl
-└── requirements.txt            # Python függőségek
+├── video_remixer.py            # Main remixer program (235 lines)
+├── simple_video_downloader.py  # Simple YouTube downloader
+├── run_remixer.bat             # Windows launcher script
+├── video_remixer_config.json   # Configuration file
+└── requirements.txt            # Python dependencies
 ```
 
 ---
 
-## Használat
+## Usage
 
-### Gyors indítás
+### Quick Start
 
 ```bash
-# Windows batch fájl
+# Windows batch file
 run_remixer.bat
 
-# URL paraméterrel
+# With URL parameter
 run_remixer.bat "https://www.youtube.com/watch?v=..."
 ```
 
-### Kézi indítás
+### Manual Start
 
 ```bash
-# Függőségek telepítése
+# Install dependencies
 pip install -r requirements.txt
 
-# Remixelő indítása
+# Start remixer
 python video_remixer.py
 
-# URL átadása
+# Pass a URL
 python video_remixer.py "https://www.youtube.com/watch?v=..."
 ```
 
-### Konfiguráció
+### Configuration
 
-A `video_remixer_config.json` fájlban állítható be:
+The `video_remixer_config.json` file allows setting:
 
-- `output_folder` — Kimeneti mappa
-- `temp_folder` — Ideiglenes fájlok mappája
-- `crafting_videos_folder` — Alap videók mappája
-- YouTube API beállítások
-
----
-
-## Munkafolyamat
-
-1. **Videó keresés** — YouTube-on népszerű videó keresése (API vagy URL)
-2. **Letöltés** — yt-dlp segítségével
-3. **Feldolgozás** — FFmpeg vágás, keverés, effektek
-4. **Kimenet** — Új videó mentése az output mappába
+- `output_folder` — Output directory
+- `temp_folder` — Temporary files directory
+- `crafting_videos_folder` — Base videos directory
+- YouTube API settings
 
 ---
 
-## Függőségek
+## Workflow
+
+1. **Video Search** — Search for popular videos on YouTube (API or URL)
+2. **Download** — Using yt-dlp
+3. **Processing** — FFmpeg cutting, mixing, effects
+4. **Output** — Save new video to output folder
+
+---
+
+## Dependencies
 
 ### Python
 - **Python** 3.8+
 - **google-api-python-client** — YouTube API
-- **google-auth-oauthlib** — Hitelesítés
-- **google-auth-httplib2** — HTTP transzport
-- **yt-dlp** — Letöltés
-- **FFmpeg** — Videó feldolgozás (rendszer szinten telepítendő)
+- **google-auth-oauthlib** — Authentication
+- **google-auth-httplib2** — HTTP transport
+- **yt-dlp** — Download
+- **FFmpeg** — Video processing (must be installed at system level)
 
-### Rendszer
-- **FFmpeg** (`ffmpeg` parancs elérhető legyen a PATH-ban)
-- **yt-dlp** (`yt-dlp` parancs)
+### System
+- **FFmpeg** (`ffmpeg` command available in PATH)
+- **yt-dlp** (`yt-dlp` command)
 
 ---
 
-## Fejlesztő
+## Developer
 
-Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research)
