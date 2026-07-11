@@ -1,7 +1,7 @@
 # YouTube Video Készítő — Automatikus Videó Remixelő
 
 **Verzió:** 1.0  
-**Szerző:** Zsombi (AI asszisztens segítségével)  
+**Szerző:** Zsombi & Hermes Agent (Nous Research)  
 **Státusz:** Működő prototípus
 
 ---
@@ -89,4 +89,4 @@ A `video_remixer_config.json` fájlban állítható be:
 
 ## Fejlesztő
 
-Zsombi (AI asszisztens segítségével) (AI asszisztens segítségével)
+Zsombi & Hermes Agent (Nous Research) (AI asszisztens segítségével)
