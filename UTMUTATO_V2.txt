@@ -1,0 +1,37 @@
+
+        === VIDEO DOWNLOADER - HASZNÁLATI ÚTMUTATÓ ===
+        
+        LETÖLTÉS:
+        1. Normál YouTube videó URL-t adj meg (nem Shorts)
+           Példa: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        
+        2. Ha Shorts URL-t adsz meg, automatikusan átalakítom
+        
+        3. A letöltött videók itt landolnak:
+           C:\Users\iga\Desktop\downloaded_videos
+        
+        CRAFTING VIDEÓK:
+        1. Hozz létre egy mappát:
+           C:\Users\iga\Desktop\crafting_videos
+        
+        2. Tölts fel saját barkácsolós/kézműves videókat
+           - Saját készítésű legyen!
+           - Ne copyrightolt anyagot!
+        
+        SZERKESZTÉS:
+        1. Telepítsd az FFmpeg-et: https://ffmpeg.org/download.html
+        
+        2. Használj ingyenes videószerkesztőt:
+           - Shotcut: https://shotcut.org/
+           - DaVinci Resolve: https://www.blackmagicdesign.com/products/davinciresolve
+           - Windows Video Editor (beépített)
+        
+        3. Keverd össze a letöltött videót a crafting videóval
+        
+        PROBLÉMÁK:
+        - Ha nem működik, frissítsd az yt-dlp-t:
+          pip install --upgrade yt-dlp
+        
+        - Ha még mindig nem működik, próbáld ezt a parancsot kézzel:
+          yt-dlp -f best[height<=720] -o "video.%(ext)s" URL_CÍME
+        

@@ -1,0 +1,20 @@
+
+        === VIDEO DOWNLOADER - HASZNÁLATI ÚTMUTATÓ ===
+        
+        1. CRAFTING VIDEÓK:
+           - Hozz létre egy mappát: C:\Users\iga\Desktop\crafting_videos
+           - Tölts fel saját barkácsolós/kézműves videókat
+        
+        2. LETÖLTÉS:
+           - Add meg a YouTube URL-t
+           - A videók itt landolnak: C:\Users\iga\Desktop\downloaded_videos
+        
+        3. FFMPEG TELEPÍTÉSE (később):
+           - Töltsd le: https://ffmpeg.org/download.html
+           - Tedd a PATH-ba
+           - Utána tudod szerkeszteni a videókat
+        
+        4. MANUÁLIS SZERKESZTÉS:
+           - Használj Shotcut, DaVinci Resolve vagy Windows Video Editor-t
+           - Keverd össze a letöltött videót a crafting videóval
+        

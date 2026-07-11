@@ -1,0 +1,10 @@
+ {
+  "youtube_api_key": "YOUR_API_KEY_HERE",
+  "client_secrets_file": "client_secrets.json",
+  "search_query": "popular",
+  "max_results": 5,
+  "crafting_videos_folder": "C:\\Users\\iga\\Desktop\\crafting_videos",
+  "output_folder": "C:\\Users\\iga\\Desktop\\remixed_videos",
+  "ffmpeg_path": "C:\\ffmpeg\\bin\\ffmpeg.exe",
+  "temp_folder": "C:\\Users\\iga\\Desktop\\temp_videos"
+}
