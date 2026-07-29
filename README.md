@@ -1,4 +1,4 @@
-# YouTube Video Remixer — Automatic Video Processing with yt-dlp + FFmpeg
+# video-remixer
 
 **Status:** ✅ Working — video download and processing works
 
