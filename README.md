@@ -1,21 +1,21 @@
 # video-remixer
 
-Automata videó és audio remixelő eszköz YouTube letöltéssel és FFmpeg feldolgozással.
+Automated video and audio remixing tool using YouTube downloading and FFmpeg processing.
 
-## 📌 A projekt célja
-Automatizálni a videók letöltését, vágását és audióparzsák vagy hangeffektek összefűzését egyedi videóremixek gyors előállításához.
+## 📌 Overview & Purpose
+Designed to automate video downloading, trimming, and stitching audio segments/effects to quickly produce custom video remixes.
 
-## ⚙️ Technológiai stakk & Működés
-- **Nyelv**: Python
-- **Ezközök**: FFmpeg, `yt-dlp`
+## ⚙️ Tech Stack & Architecture
+- **Language**: Python 3.9+
+- **Core Tools**: FFmpeg, `yt-dlp`
 
-## 🚀 Telepítés és Használat
+## 🚀 Installation & Quickstart
 
-### Előfeltételek
+### Prerequisites
 - Python 3.9+
-- FFmpeg telepítve és hozzáadva a PATH-hoz
+- FFmpeg installed and available in system PATH
 
-### Lépések
+### Steps
 ```bash
 git clone https://github.com/zsomborturcsanyi7-lang/video-remixer.git
 cd video-remixer
@@ -24,5 +24,5 @@ pip install -r requirements.txt
 python remixer.py --url "https://youtube.com/watch?v=..."
 ```
 
-## 📊 Status
-⚠️ **Működő eszköz**.
+## 📊 Project Status
+⚠️ **Functional Script**.
